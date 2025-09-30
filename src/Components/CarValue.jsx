@@ -12,9 +12,12 @@ function CarValue() {
         }, 0)
     })
   return (
-    <div>
-      Total Cost: ${totalCost}
-    </div>
+<div className="max-w-md mx-auto mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg shadow-sm text-center">
+  <p className="text-lg font-semibold text-gray-700">
+    Total Cost: <span className="text-blue-600 font-bold">${totalCost}</span>
+  </p>
+</div>
+
   )
 }
 
