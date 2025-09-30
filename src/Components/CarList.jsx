@@ -21,8 +21,8 @@ function CarList() {
     const renderedCars = cars.map((car) => {
         const bold = name && car.name.toLowerCase().includes(name.toLowerCase())
         return(
-            <div key={car.id} className={`${bold && 'bold'}`}>
-                <p>
+            <div key={car.id} >
+                <p className={`${bold && 'bold'}`}>
                     {car.name} - ${car.cost}
                 </p>
                 <button
