@@ -9,8 +9,8 @@ function App() {
   return (
     <>
     <CarForm/>
-    <CarList/>
     <CarSearch/>
+    <CarList/>
     <CarValue/>
     </>
   )
